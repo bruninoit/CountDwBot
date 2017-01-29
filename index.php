@@ -236,4 +236,3 @@ $textrido = "Countdown Random creato con successo.";
 	);
 	$r = new HttpRequest("post", "https://api.telegram.org/$api/answerInlineQuery", $args);
 }
-jp
