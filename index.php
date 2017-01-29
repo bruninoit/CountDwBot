@@ -44,7 +44,7 @@ if ($update["callback_query"])
 	$iscb = true;
 }
 
-if ($update[chosen_inline_result][inline_message_id])
+if ($update["chosen_inline_result"]["inline_message_id"])
 {
 	$inl = $update["chosen_inline_result"]["inline_message_id"];
 	$query = $update["chosen_inline_result"]["query"];
