@@ -152,8 +152,8 @@ if ($inline)
 	$motiv = $ar[1];
 	if (is_numeric($time) and $motiv)
 	{
-$text = "Countdown di $time secondi creato con successo."
-$textrido = "Countdown Random creato con successo.";
+		$text = "Countdown di $time secondi creato con successo."
+		$textrido = "Countdown Random creato con successo.";
 		if ($time >= 2000)
 		{
 			$time = 2000;
