@@ -74,7 +74,7 @@ if ($data)
 	$rm = json_encode($rm);
 	$n = $time;
 	$con = mysqli_query($DB, "select id from countdown where id = '$mid' and avviato = 1");
-	if (mysqli_num_rows($DB, $con))
+	if (mysqli_num_rows($con))
 	{
 		exit;
 	}
