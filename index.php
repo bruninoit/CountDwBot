@@ -150,7 +150,7 @@ if ($inline)
 	$ar = explode(" ", $msg, 2);
 	$time = $ar[0];
 	$motiv = $ar[1];
-	if (is_numeric($time) and $motiv)
+	if (ctype_digit($time) and $motiv)
 	{
 		$text = "Countdown di $time secondi creato con successo."
 		$textrido = "Countdown Random creato con successo.";
